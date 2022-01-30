@@ -49,6 +49,11 @@ dependencies {
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
     androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 
+    implementation "androidx.room:room-runtime:2.1.0-alpha04"
+    implementation "androidx.room:room-coroutines:2.1.0-alpha04"
+    kapt "androidx.room:room-compiler:2.1.0-alpha04"
+
+
     // Lifecycle components
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycleVersion"
